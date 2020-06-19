@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: whitesmoke;
     font-family: Helvetica, sans-serif;
 }
 
@@ -24,7 +24,7 @@ a {
 
 #content {
     padding: 10px;
-    color:aliceblue;
+    color:black;
 }
 
 #nav {
