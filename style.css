@@ -5,11 +5,11 @@ body{
 
 a {
     text-decoration: none;
-    color: cyan;
+    color: black;
 }
 
 #container{
-    background-color:black;
+    background-color:whitesmoke;
     width: 1250px;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +41,7 @@ a {
     clear: both;
     padding: 10px;
     background-color: dimgray;
-    color: white;
+    color: whitesmoke;
     text-align: right;
 }
 
