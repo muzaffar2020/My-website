@@ -15,7 +15,7 @@
                     <h2>Navigation</h2>
                     <ul>
                         <li><a class="selected" href="index.html">Home</a></li>
-                        <li><a href="fablabsafety.html">Fablab Safety</a></li>
+                        <li><a href="fablabsafety.html">Fablab Safety and Tools</a></li>
                         <li><a href="projectmanagement.html">Project Management</a></li>
                             <li><a href="webdevelopment.html">Web development</a></li>
                             <li><a href="cad.html">Computer Aided Design</a></li>
@@ -29,9 +29,34 @@
                 </div>
                 
                 <div id="main">
-                      <h2>3D Printing:</h2>
-                     <p><h3>Individual Assignment</h3>
-                    Firstly, I started with sketching a box, 23mm in width and length before extruding upwards by 23mm.
+                 <h2>3D Printing:</h2>
+                    3d printing is a technology that allows you to print physical models from digitally made models. All you need to do is to create a deisgn in a software like Fusion360, then slice the model before transfering it to the printer. Here in SP, we mostly use the Cura Ultimaker 2+ which thankfully is easy to use. Below, you can see an image of the printer taken from the Dfab github which shows you all the parts that are found on it. </br>
+                    <img src="images/ultimaker.png" width="380" lenght="180" /></br> 
+                
+            <br><h3>Bridging</h3>
+Bridging is used to test the 3d printer's ability to print layers between a gap without any support. In this case, I set the gap size from 10 to 25mm. From my previous experience using 3d printers, the printer already starts to struggle at the 10mm mark, with failure at the 25mm mark.</br>
+<img src="images/bridge1.png" width="380" lenght="180" />
+        <img src="images/bridge2.png" width="380" lenght="180" /></br>
+<img src="images/bridge3.png" width="380" lenght="180" />
+        <img src="images/bridge4.png" width="380" lenght="180" /></br>
+<img src="images/bridge5.png" width="380" lenght="180" /></br>
+ <a href="downloads/bridging.f3d" download> (Click to download file) </a> </br>      
+<br><h3>Overhang</h3>
+Overhang is to test the 3d printer's ability to print at extreme angles. This will enable you to find its angle limit. Usually, as long as the overhang does not exceed 45 degrees, the model should be able to be printed without the use of support structures. Here I created a simple overhang test from watching a tutorial on Youtube. It goes from 30 to 70 degrees.</br>
+<img src="images/OVERHANG.png" width="380" lenght="180" /></br>
+<a href="downloads/overhang%20angle%20test.f3d" download> (Click to download file) </a> </br> 
+ <br><h3>Infill Density</h3>   
+Infill density is the material that fills the inside walls of your structure. A higher infill creates a stronger but heavier print. We usually use 20% - 25% infill densities because they have a nice strength to weight ratio. Some printers can even create intricate patterns from honey combs to even spirals.</br>
+<img src="images/infill.png" width="380" lenght="180" /></br>(Taken from my3dmatter.com)
+</a></br> 
+ <br><h3>Clearance</h3>                           
+  Clearance is crucial especially when creating movable joints such as hinges. Making the clearance too small will fuse the parts together. So it is common to put a clearance of at least 0.5mm. As an example, below is a hinge that I had designed for my final project. I gave it a tolerance of 0.6mm and it works amazingly. However, too much clearance will cause a lot of play which will damage your workpiece. </br>
+<img src="images/hinge.png" width="380" lenght="180" />
+        <img src="images/clearance.png" width="380" lenght="180" /></br>
+                            
+                    
+<p><h3>Assignment</h3>
+ Firstly, I started with sketching a box, 23mm in width and length before extruding upwards by 23mm.
         <img src="images/cube1.png" width="380" lenght="180" />
         <img src="images/cube2.png" width="380" lenght="180" /></br>            
         Then I played around with a couple shapes and ended up choosing a hexagon for the six sides. So I sketched out the hexagons using the inscribed polygon function at 9.5mm. I did so to allow enough space from the edge to give it structural stiffness. Then I extruded inwards for all the hexagons.</br>           
@@ -47,17 +72,11 @@
      <img src="images/cube9.png" width="380" lenght="180" />
         <img src="images/cube10.png" width="380" lenght="180" /></br>
         <img src="images/cube11.png" width="380" lenght="180" /></br>
-    <a href="downloads/cubethingv3.stl" download> Click to download file </a>      <p><h3>Group Assignment</h3>
-<h4>Bridging</h4>
-<img src="images/bridge1.png" width="380" lenght="180" />
-        <img src="images/bridge2.png" width="380" lenght="180" /></br>
-<img src="images/bridge3.png" width="380" lenght="180" />
-        <img src="images/bridge4.png" width="380" lenght="180" /></br>
-<img src="images/bridge5.png" width="380" lenght="180" /></br>
- <a href="downloads/bridging.f3d" download> Click to download file </a>      
-<h4>Overhang</h4>
- <h4>Infill Density</h4>                          
- <h4>Clearance</h4>                              
+<a href="downloads/cubethingv3.stl" download> (Click to download file) </a></br>
+So here is the finish product. Took me awhile to clear the support from the inside. I could barely fit a needle nose plier inside it. But overall, I felt that it turned out great. Looks alot like a durian which was indeed my inspiration for this assignment.
+<img src="images/3dthang.jpg" width="380" lenght="180" />
+        <img src="images/3dthang2.jpg" width="380" lenght="180" /></br>           
+    
                             
                            
                             
